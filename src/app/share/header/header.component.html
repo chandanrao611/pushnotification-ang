@@ -1,0 +1,29 @@
+<header class="main-header">
+  <!-- Logo -->
+  <a [routerLink]="[ '/dashboard' ]" class="logo">
+    <!-- mini logo for sidebar mini 50x50 pixels -->
+    <span class="logo-mini"><b>PN</b></span>
+    <!-- logo for regular state and mobile devices -->
+    <span class="logo-lg"><b>PUSH NOTIFICATION</b></span>
+  </a>
+  <!-- Header Navbar: style can be found in header.less -->
+  <nav class="navbar navbar-static-top">
+    <!-- Sidebar toggle button-->
+    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+      <span class="sr-only">Chandrakesha Rao</span>
+    </a>
+    <!-- Navbar Right Menu -->
+    <div class="navbar-custom-menu">
+      <ul class="nav navbar-nav">
+        <li class="dropdown user user-menu">
+          <a href="#" class="dropdown-toggle" data-toggle="control-sidebar">
+            <span class="hidden-xs">Chandrakesha Rao</span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" (click)="notify()"><i class="fa fa-power-off"></i> Notify Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,217 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+}
+*:before,*:after
+{ box-sizing: border-box;
+}
+html,body {
+ height: 100%; position: relative;
+ }
+section.content {
+ min-height: 84vh !important;
+   /*will cover the 100% of viewport */
+     overflow: hidden; 
+     display: block;
+     position: relative; 
+     /*padding-bottom: 100px; 
+      height of your footer */
+}
+footer 
+{ position: relative; bottom: 0;
+ width: 100%;
+ }
+
+a.working_spiner {
+ font-size: 18px;
+ padding: 0 5px 0 0;
+}
+.p-l-0 {
+ padding-left: 0px !important;
+}
+.p-r-0 {
+ padding-right: 0px !important;
+}
+.box-search {
+ padding: 0 0px 5px 10px;
+ text-align: right;
+ width: 100%;
+ clear: both;
+}
+.skin-red-light .sidebar-menu>li>a.active {
+ border-color: red;
+}
+a.active {
+ background: #dd4b3969;
+}
+.profile-user-img {
+   height: 100px !important;
+}
+.input-file {
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ opacity: .0;
+ cursor: pointer;
+ z-index: 99;
+}
+.upload-profile img{
+ width: 100px;
+ height: 100px;
+ border: 3px solid #adb5bd; 
+ border-radius: 50%;
+}
+.upload-profile {
+ position: relative;
+   display: inline-block;
+}
+.upload-profile:hover .edit1 {
+ display: block;
+ color: black;
+}
+.edit {
+   padding-right: 7px;
+   position: absolute;
+   right: 0;
+   top: 0; z-index: 99999;
+   display: none;
+}
+.user-panel>.image>img {
+ height: 50px !important;
+ max-height: 50px;
+ border: 1px solid;
+}
+.skin-red-light .main-sidebar {
+ z-index: 0 !important;
+}
+
+.overlay-area .overlay {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ background: rgba(255, 255, 255, 0.75);
+ text-align: center;
+ vertical-align: middle;
+}
+
+.overlay-area {
+ position: relative;
+}
+
+.overlay-area .overlay i {
+ position: absolute;
+ top: calc(50% - 15px);
+ font-size: 30px;
+}
+.form-control {
+ border: none !important;
+ border-bottom: 1px solid #999 !important;
+ padding-left: 5px !important;
+}
+.m-0{
+ margin: 0 !important;
+}
+.pd-5{
+ padding: 5px !important;
+}
+.img-icon{
+ width: 16px;
+ color: #3c8dbc;
+}
+span.error-msg {
+ color: #dc0b05;
+ font-size: 14px;
+ font-style: italic;
+}
+.grid-list-2 {
+   display: grid;
+   grid-template-columns: 3fr 4fr;
+   grid-template-rows: minmax(20px, auto);
+   grid-gap: 5px;
+   padding: 10px;
+   border: 1px solid #ecf0f573;
+   border-radius: 5px;
+   /* box-shadow: 0 4px 8px 0 rgb(221, 75, 57); */
+   transition: 0.3s;
+}
+.grid-list-3 {
+   display: grid;
+   grid-template-columns: 4fr 4fr 4fr;
+   grid-template-rows: minmax(20px, auto);
+   grid-gap: 5px;
+   padding: 10px;
+   border: 1px solid #ecf0f573;
+   border-radius: 5px;
+   /* box-shadow: 0 4px 8px 0 rgb(221, 75, 57); */
+   transition: 0.3s;
+}
+.not-found {
+ text-align: center;
+ color: red;
+ font-size: 16px;
+ font-style: initial;
+}
+.view-more{
+ color: white !important;
+ text-align: center !important;
+}
+.more-view-container.disabled {
+ cursor: not-allowed !important;
+}
+span.bs-rating-star.active {
+   color: red;
+}
+.form-group.required label:after {
+ content:" *";
+ color:red;
+}
+.breakdata {
+ word-break: break-all;
+}
+.form-horizontal .action-modal-body .form-group {
+ margin-right: 0 !important;
+ margin-left: 0 !important;
+}
+.width100{
+ width: 100%;
+}
+.width1{
+ width: 1%;
+}
+.width2{
+ width: 2%;
+}
+.width3{
+ width: 3%;
+}
+.width4{
+ width: 4%;
+}
+.width5{
+ width: 5%;
+}
+.width10{
+ width: 10%;
+}
+.width15{
+ width: 15%;
+}
+.width30{
+ width: 30%;
+}
+.width55{
+ width: 55%;
+}
+.td-span {
+   border: 1px solid #dd4b39;
+   border-radius: 50%;
+}
+img.td-img {
+   width: 20px;
+}
+.m-t-15{
+   margin-top: 15px;
+}
